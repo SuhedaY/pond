@@ -1,0 +1,1098 @@
+{
+  "abstract": [
+    { 
+      "german": "die Gesellschaft", 
+      "english": "society", 
+      "example": "Die Gesellschaft muss diese Herausforderungen gemeinsam lösen.",
+      "frequency": 6,
+      "decomposition": ["gesellschaft"],
+      "decompositionMeaning": ["society/company"],
+      "connectedWords": ["gesellschaftlich", "Gesellschafter"]
+    },
+    { 
+      "german": "die Verantwortung", 
+      "english": "responsibility", 
+      "example": "Jeder trägt Verantwortung für den Umweltschutz.",
+      "frequency": 5,
+      "decomposition": ["ver", "antwort", "ung"],
+      "decompositionMeaning": ["prefix", "answer", "noun suffix"],
+      "connectedWords": ["antworten", "verantwortlich", "die Antwort"]
+    },
+    { 
+      "german": "die Herausforderung", 
+      "english": "challenge", 
+      "example": "Der Klimawandel ist die größte Herausforderung unserer Zeit.",
+      "frequency": 4,
+      "decomposition": ["heraus", "forder", "ung"],
+      "decompositionMeaning": ["out", "demand", "noun suffix"],
+      "connectedWords": ["herausfordern", "fordern", "die Forderung"]
+    },
+    { 
+      "german": "der Fortschritt", 
+      "english": "progress", 
+      "example": "Der medizinische Fortschritt rettet viele Leben.",
+      "frequency": 4,
+      "decomposition": ["fort", "schritt"],
+      "decompositionMeaning": ["forward", "step"],
+      "connectedWords": ["fortschrittlich", "schreiten", "der Schritt"]
+    },
+    { 
+      "german": "der Einfluss", 
+      "english": "influence", 
+      "example": "Fernsehen hat großen Einfluss auf junge Menschen.",
+      "frequency": 5,
+      "decomposition": ["ein", "fluss"],
+      "decompositionMeaning": ["in", "flow"],
+      "connectedWords": ["einfließen", "beeinflussen", "fließen"]
+    },
+    { 
+      "german": "die Entwicklung", 
+      "english": "development", 
+      "example": "Die technische Entwicklung verändert unser Leben.",
+      "frequency": 6,
+      "decomposition": ["ent", "wickl", "ung"],
+      "decompositionMeaning": ["prefix (un-)", "wind/wrap", "noun suffix"],
+      "connectedWords": ["entwickeln", "wickeln", "die Wicklung"]
+    },
+    { 
+      "german": "die Entscheidung", 
+      "english": "decision", 
+      "example": "Diese Entscheidung war sehr schwierig.",
+      "frequency": 6,
+      "decomposition": ["ent", "scheid", "ung"],
+      "decompositionMeaning": ["prefix (un-)", "separate", "noun suffix"],
+      "connectedWords": ["entscheiden", "scheiden", "unterscheiden"]
+    },
+    { 
+      "german": "die Erfahrung", 
+      "english": "experience", 
+      "example": "Berufliche Erfahrung ist sehr wertvoll.",
+      "frequency": 5,
+      "decomposition": ["er", "fahr", "ung"],
+      "decompositionMeaning": ["prefix", "drive/travel", "noun suffix"],
+      "connectedWords": ["erfahren", "fahren", "die Fahrt"]
+    },
+    { 
+      "german": "die Fähigkeit", 
+      "english": "ability", 
+      "example": "Seine Fähigkeit zu lernen ist beeindruckend.",
+      "frequency": 5,
+      "decomposition": ["fähig", "keit"],
+      "decompositionMeaning": ["capable", "noun suffix"],
+      "connectedWords": ["fähig", "befähigen", "unfähig"]
+    },
+    { 
+      "german": "die Möglichkeit", 
+      "english": "possibility", 
+      "example": "Es gibt verschiedene Möglichkeiten.",
+      "frequency": 6,
+      "decomposition": ["möglich", "keit"],
+      "decompositionMeaning": ["possible", "noun suffix"],
+      "connectedWords": ["möglich", "ermöglichen", "unmöglich"]
+    },
+    { 
+      "german": "die Lösung", 
+      "english": "solution", 
+      "example": "Wir brauchen eine kreative Lösung.",
+      "frequency": 5,
+      "decomposition": ["lös", "ung"],
+      "decompositionMeaning": ["solve/loosen", "noun suffix"],
+      "connectedWords": ["lösen", "auflösen", "löslich"]
+    },
+    { 
+      "german": "das Ergebnis", 
+      "english": "result", 
+      "example": "Das Ergebnis war überraschend.",
+      "frequency": 5,
+      "decomposition": ["er", "gebnis"],
+      "decompositionMeaning": ["prefix", "birth/result"],
+      "connectedWords": ["ergeben", "geben", "die Geburt"]
+    },
+    { 
+      "german": "die Ursache", 
+      "english": "cause", 
+      "example": "Die Ursache ist noch unbekannt.",
+      "frequency": 4,
+      "decomposition": ["ur", "sache"],
+      "decompositionMeaning": ["original", "thing/matter"],
+      "connectedWords": ["ursprünglich", "die Sache", "verursachen"]
+    },
+    { 
+      "german": "die Folge", 
+      "english": "consequence", 
+      "example": "Die Folgen sind sichtbar.",
+      "frequency": 5,
+      "decomposition": ["folge"],
+      "decompositionMeaning": ["follow/sequence"],
+      "connectedWords": ["folgen", "befolgen", "die Folgen"]
+    },
+    { 
+      "german": "der Zusammenhang", 
+      "english": "connection", 
+      "example": "Der Zusammenhang ist klar.",
+      "frequency": 4,
+      "decomposition": ["zusammen", "hang"],
+      "decompositionMeaning": ["together", "hang"],
+      "connectedWords": ["zusammenhängen", "hängen", "der Hang"]
+    }
+  ],
+  "work": [
+    { 
+      "german": "das Vorstellungsgespräch", 
+      "english": "job interview", 
+      "example": "Morgen habe ich ein wichtiges Vorstellungsgespräch.",
+      "frequency": 3,
+      "decomposition": ["vorstellung", "gespräch"],
+      "decompositionMeaning": ["presentation/introduction", "conversation"],
+      "connectedWords": ["vorstellen", "sprechen", "das Gespräch"]
+    },
+    { 
+      "german": "die Bewerbung", 
+      "english": "application", 
+      "example": "Ich schreibe eine Bewerbung.",
+      "frequency": 4,
+      "decomposition": ["be", "werb", "ung"],
+      "decompositionMeaning": ["prefix", "advertise/court", "noun suffix"],
+      "connectedWords": ["bewerben", "werben", "die Werbung"]
+    },
+    { 
+      "german": "der Lebenslauf", 
+      "english": "curriculum vitae", 
+      "example": "Mein Lebenslauf ist aktuell.",
+      "frequency": 3,
+      "decomposition": ["lebens", "lauf"],
+      "decompositionMeaning": ["life", "run/course"],
+      "connectedWords": ["das Leben", "laufen", "der Lauf"]
+    },
+    { 
+      "german": "die Weiterbildung", 
+      "english": "continuing education", 
+      "example": "Weiterbildung ist wichtig.",
+      "frequency": 3,
+      "decomposition": ["weiter", "bild", "ung"],
+      "decompositionMeaning": ["further", "form/educate", "noun suffix"],
+      "connectedWords": ["weiterbilden", "bilden", "die Bildung"]
+    },
+    { 
+      "german": "die Fortbildung", 
+      "english": "professional training", 
+      "example": "Die Fortbildung beginnt morgen.",
+      "frequency": 3,
+      "decomposition": ["fort", "bild", "ung"],
+      "decompositionMeaning": ["forward", "form/educate", "noun suffix"],
+      "connectedWords": ["fortbilden", "bilden", "die Bildung"]
+    },
+    { 
+      "german": "das Arbeitsverhältnis", 
+      "english": "employment relationship", 
+      "example": "Das Arbeitsverhältnis wurde beendet.",
+      "frequency": 2,
+      "decomposition": ["arbeits", "verhältnis"],
+      "decompositionMeaning": ["work", "relationship"],
+      "connectedWords": ["arbeiten", "verhalten", "das Verhältnis"]
+    },
+    { 
+      "german": "die Arbeitsbedingungen", 
+      "english": "working conditions", 
+      "example": "Die Arbeitsbedingungen sind gut.",
+      "frequency": 3,
+      "decomposition": ["arbeits", "bedingungen"],
+      "decompositionMeaning": ["work", "conditions"],
+      "connectedWords": ["arbeiten", "bedingen", "die Bedingung"]
+    },
+    { 
+      "german": "der Arbeitsplatz", 
+      "english": "workplace", 
+      "example": "Mein Arbeitsplatz ist modern.",
+      "frequency": 4,
+      "decomposition": ["arbeits", "platz"],
+      "decompositionMeaning": ["work", "place"],
+      "connectedWords": ["arbeiten", "der Platz", "platzieren"]
+    },
+    { 
+      "german": "die Kündigung", 
+      "english": "termination", 
+      "example": "Die Kündigung kam überraschend.",
+      "frequency": 3,
+      "decomposition": ["künd", "igung"],
+      "decompositionMeaning": ["announce/terminate", "noun suffix"],
+      "connectedWords": ["kündigen", "ankündigen", "verkünden"]
+    },
+    { 
+      "german": "das Gehalt", 
+      "english": "salary", 
+      "example": "Das Gehalt ist angemessen.",
+      "frequency": 4,
+      "decomposition": ["gehalt"],
+      "decompositionMeaning": ["content/salary"],
+      "connectedWords": ["gehaltvoll", "halten", "der Halt"]
+    },
+    { 
+      "german": "die Beförderung", 
+      "english": "promotion", 
+      "example": "Die Beförderung war verdient.",
+      "frequency": 3,
+      "decomposition": ["be", "förder", "ung"],
+      "decompositionMeaning": ["prefix", "promote/transport", "noun suffix"],
+      "connectedWords": ["befördern", "fördern", "die Förderung"]
+    },
+    { 
+      "german": "der Kollege", 
+      "english": "colleague", 
+      "example": "Mein Kollege ist sehr hilfsbereit.",
+      "frequency": 5,
+      "decomposition": ["kollege"],
+      "decompositionMeaning": ["colleague"],
+      "connectedWords": ["die Kollegin", "kollegial", "das Kollegium"]
+    },
+    { 
+      "german": "der Vorgesetzte", 
+      "english": "supervisor", 
+      "example": "Der Vorgesetzte ist fair.",
+      "frequency": 4,
+      "decomposition": ["vor", "gesetzt", "e"],
+      "decompositionMeaning": ["before", "set/placed", "person suffix"],
+      "connectedWords": ["vorsetzen", "setzen", "der Vorsitz"]
+    },
+    { 
+      "german": "die Besprechung", 
+      "english": "meeting", 
+      "example": "Die Besprechung dauert eine Stunde.",
+      "frequency": 4,
+      "decomposition": ["be", "sprech", "ung"],
+      "decompositionMeaning": ["prefix", "speak", "noun suffix"],
+      "connectedWords": ["besprechen", "sprechen", "das Gespräch"]
+    },
+    { 
+      "german": "das Projekt", 
+      "english": "project", 
+      "example": "Das Projekt ist erfolgreich.",
+      "frequency": 5,
+      "decomposition": ["projekt"],
+      "decompositionMeaning": ["project"],
+      "connectedWords": ["projizieren", "der Projektor", "die Projektion"]
+    }
+  ],
+  "society": [
+    { 
+      "german": "die Meinungsfreiheit", 
+      "english": "freedom of expression", 
+      "example": "Meinungsfreiheit ist ein Grundrecht.",
+      "frequency": 3,
+      "decomposition": ["meinungs", "freiheit"],
+      "decompositionMeaning": ["opinion", "freedom"],
+      "connectedWords": ["die Meinung", "frei", "befreien"]
+    },
+    { 
+      "german": "die Gleichberechtigung", 
+      "english": "equal rights", 
+      "example": "Gleichberechtigung ist wichtig.",
+      "frequency": 3,
+      "decomposition": ["gleich", "berechtigung"],
+      "decompositionMeaning": ["equal", "entitlement"],
+      "connectedWords": ["gleich", "berechtigen", "das Recht"]
+    },
+    { 
+      "german": "die Demokratie", 
+      "english": "democracy", 
+      "example": "Die Demokratie lebt von Beteiligung.",
+      "frequency": 5,
+      "decomposition": ["demokratie"],
+      "decompositionMeaning": ["democracy"],
+      "connectedWords": ["demokratisch", "der Demokrat", "demokratisieren"]
+    },
+    { 
+      "german": "der Rechtsstaat", 
+      "english": "constitutional state", 
+      "example": "Der Rechtsstaat schützt alle.",
+      "frequency": 3,
+      "decomposition": ["rechts", "staat"],
+      "decompositionMeaning": ["law/right", "state"],
+      "connectedWords": ["das Recht", "der Staat", "staatlich"]
+    },
+    { 
+      "german": "die Eingliederung", 
+      "english": "integration", 
+      "example": "Die Eingliederung braucht Zeit.",
+      "frequency": 2,
+      "decomposition": ["ein", "glied", "erung"],
+      "decompositionMeaning": ["in", "member/limb", "noun suffix"],
+      "connectedWords": ["eingliedern", "das Glied", "die Gliederung"]
+    },
+    { 
+      "german": "die Zuwanderung", 
+      "english": "immigration", 
+      "example": "Zuwanderung bringt Chancen.",
+      "frequency": 3,
+      "decomposition": ["zu", "wander", "ung"],
+      "decompositionMeaning": ["to", "wander/migrate", "noun suffix"],
+      "connectedWords": ["zuwandern", "wandern", "die Wanderung"]
+    },
+    { 
+      "german": "die Bevölkerung", 
+      "english": "population", 
+      "example": "Die Bevölkerung wächst.",
+      "frequency": 5,
+      "decomposition": ["be", "völker", "ung"],
+      "decompositionMeaning": ["prefix", "peoples", "noun suffix"],
+      "connectedWords": ["bevölkern", "das Volk", "völkisch"]
+    },
+    { 
+      "german": "die Minderheit", 
+      "english": "minority", 
+      "example": "Minderheiten brauchen Schutz.",
+      "frequency": 4,
+      "decomposition": ["minder", "heit"],
+      "decompositionMeaning": ["less/minor", "noun suffix"],
+      "connectedWords": ["mindern", "die Mehrheit", "minderjährig"]
+    },
+    { 
+      "german": "die Mehrheit", 
+      "english": "majority", 
+      "example": "Die Mehrheit entscheidet.",
+      "frequency": 5,
+      "decomposition": ["mehr", "heit"],
+      "decompositionMeaning": ["more", "noun suffix"],
+      "connectedWords": ["mehr", "die Minderheit", "mehren"]
+    },
+    { 
+      "german": "der Bürger", 
+      "english": "citizen", 
+      "example": "Jeder Bürger hat Rechte.",
+      "frequency": 5,
+      "decomposition": ["bürger"],
+      "decompositionMeaning": ["citizen/bourgeois"],
+      "connectedWords": ["bürgerlich", "die Bürgerin", "das Bürgertum"]
+    },
+    { 
+      "german": "die Wahl", 
+      "english": "election", 
+      "example": "Die Wahl ist geheim.",
+      "frequency": 5,
+      "decomposition": ["wahl"],
+      "decompositionMeaning": ["choice/election"],
+      "connectedWords": ["wählen", "auswählen", "die Auswahl"]
+    },
+    { 
+      "german": "die Partei", 
+      "english": "political party", 
+      "example": "Jede Partei hat ein Programm.",
+      "frequency": 5,
+      "decomposition": ["partei"],
+      "decompositionMeaning": ["party"],
+      "connectedWords": ["parteiisch", "die Gegenpartei", "parteilos"]
+    },
+    { 
+      "german": "die Regierung", 
+      "english": "government", 
+      "example": "Die Regierung trifft Entscheidungen.",
+      "frequency": 6,
+      "decomposition": ["regier", "ung"],
+      "decompositionMeaning": ["govern/rule", "noun suffix"],
+      "connectedWords": ["regieren", "der Regent", "die Regel"]
+    },
+    { 
+      "german": "das Gesetz", 
+      "english": "law", 
+      "example": "Das Gesetz gilt für alle.",
+      "frequency": 6,
+      "decomposition": ["ge", "setz"],
+      "decompositionMeaning": ["prefix", "set/place"],
+      "connectedWords": ["setzen", "besetzen", "die Setzung"]
+    },
+    { 
+      "german": "das Recht", 
+      "english": "right", 
+      "example": "Jeder hat das Recht auf Bildung.",
+      "frequency": 6,
+      "decomposition": ["recht"],
+      "decompositionMeaning": ["right/law"],
+      "connectedWords": ["richtig", "berechtigen", "rechtlich"]
+    }
+  ],
+  "environment": [
+    { 
+      "german": "der Klimawandel", 
+      "english": "climate change", 
+      "example": "Der Klimawandel erfordert Handeln.",
+      "frequency": 5,
+      "decomposition": ["klima", "wandel"],
+      "decompositionMeaning": ["climate", "change"],
+      "connectedWords": ["das Klima", "wandeln", "die Wandlung"]
+    },
+    { 
+      "german": "die Nachhaltigkeit", 
+      "english": "sustainability", 
+      "example": "Nachhaltigkeit ist wichtig.",
+      "frequency": 4,
+      "decomposition": ["nach", "halt", "ig", "keit"],
+      "decompositionMeaning": ["after", "hold", "adjective suffix", "noun suffix"],
+      "connectedWords": ["nachhaltig", "halten", "der Halt"]
+    },
+    { 
+      "german": "der Umweltschutz", 
+      "english": "environmental protection", 
+      "example": "Umweltschutz ist Bürgerpflicht.",
+      "frequency": 4,
+      "decomposition": ["umwelt", "schutz"],
+      "decompositionMeaning": ["environment", "protection"],
+      "connectedWords": ["die Umwelt", "schützen", "der Schutz"]
+    },
+    { 
+      "german": "die Energiewende", 
+      "english": "energy transition", 
+      "example": "Die Energiewende läuft.",
+      "frequency": 3,
+      "decomposition": ["energie", "wende"],
+      "decompositionMeaning": ["energy", "turn/transition"],
+      "connectedWords": ["die Energie", "wenden", "die Wendung"]
+    },
+    { 
+      "german": "die Verschmutzung", 
+      "english": "pollution", 
+      "example": "Verschmutzung schadet der Natur.",
+      "frequency": 3,
+      "decomposition": ["ver", "schmutz", "ung"],
+      "decompositionMeaning": ["prefix", "dirt", "noun suffix"],
+      "connectedWords": ["verschmutzen", "schmutzig", "der Schmutz"]
+    },
+    { 
+      "german": "die Abfälle", 
+      "english": "waste", 
+      "example": "Abfälle müssen getrennt werden.",
+      "frequency": 3,
+      "decomposition": ["ab", "fälle"],
+      "decompositionMeaning": ["off/away", "falls"],
+      "connectedWords": ["abfallen", "fallen", "der Fall"]
+    },
+    { 
+      "german": "das Recycling", 
+      "english": "recycling", 
+      "example": "Recycling schont Ressourcen.",
+      "frequency": 3,
+      "decomposition": ["recycling"],
+      "decompositionMeaning": ["recycling"],
+      "connectedWords": ["recyceln", "wiederverwenden", "verwerten"]
+    },
+    { 
+      "german": "die Ressourcen", 
+      "english": "resources", 
+      "example": "Ressourcen sind begrenzt.",
+      "frequency": 4,
+      "decomposition": ["ressourcen"],
+      "decompositionMeaning": ["resources"],
+      "connectedWords": ["die Quelle", "resourcenreich", "erschöpfen"]
+    },
+    { 
+      "german": "die Natur", 
+      "english": "nature", 
+      "example": "Die Natur ist schützenswert.",
+      "frequency": 6,
+      "decomposition": ["natur"],
+      "decompositionMeaning": ["nature"],
+      "connectedWords": ["natürlich", "naturbelassen", "die Natürlichkeit"]
+    },
+    { 
+      "german": "die Landschaft", 
+      "english": "landscape", 
+      "example": "Die Landschaft ist wunderschön.",
+      "frequency": 4,
+      "decomposition": ["land", "schaft"],
+      "decompositionMeaning": ["land", "collective suffix"],
+      "connectedWords": ["das Land", "ländlich", "die Landesregierung"]
+    },
+    { 
+      "german": "der Wald", 
+      "english": "forest", 
+      "example": "Der Wald produziert Sauerstoff.",
+      "frequency": 5,
+      "decomposition": ["wald"],
+      "decompositionMeaning": ["forest"],
+      "connectedWords": ["waldig", "aufforsten", "die Waldung"]
+    },
+    { 
+      "german": "das Meer", 
+      "english": "ocean", 
+      "example": "Das Meer ist verschmutzt.",
+      "frequency": 5,
+      "decomposition": ["meer"],
+      "decompositionMeaning": ["sea/ocean"],
+      "connectedWords": ["meerisch", "das Meeresrauschen", "übermeer"]
+    },
+    { 
+      "german": "die Luft", 
+      "english": "air", 
+      "example": "Saubere Luft ist wichtig.",
+      "frequency": 6,
+      "decomposition": ["luft"],
+      "decompositionMeaning": ["air"],
+      "connectedWords": ["lüften", "luftig", "die Lüftung"]
+    },
+    { 
+      "german": "das Wetter", 
+      "english": "weather", 
+      "example": "Das Wetter wird extremer.",
+      "frequency": 6,
+      "decomposition": ["wetter"],
+      "decompositionMeaning": ["weather"],
+      "connectedWords": ["wettern", "das Unwetter", "wetterbeständig"]
+    },
+    { 
+      "german": "das Klima", 
+      "english": "climate", 
+      "example": "Das Klima verändert sich.",
+      "frequency": 5,
+      "decomposition": ["klima"],
+      "decompositionMeaning": ["climate"],
+      "connectedWords": ["klimatisch", "das Mikroklima", "akklimatisieren"]
+    }
+  ],
+  "health": [
+    { 
+      "german": "die Gesundheit", 
+      "english": "health", 
+      "example": "Gesundheit ist das wichtigste Gut.",
+      "frequency": 6,
+      "decomposition": ["gesund", "heit"],
+      "decompositionMeaning": ["healthy", "noun suffix"],
+      "connectedWords": ["gesund", "gesunden", "ungesund"]
+    },
+    { 
+      "german": "das Wohlbefinden", 
+      "english": "well-being", 
+      "example": "Sport verbessert das Wohlbefinden.",
+      "frequency": 3,
+      "decomposition": ["wohl", "befinden"],
+      "decompositionMeaning": ["well", "find oneself"],
+      "connectedWords": ["wohl", "befinden", "das Befinden"]
+    },
+    { 
+      "german": "die Behandlung", 
+      "english": "treatment", 
+      "example": "Die Behandlung war erfolgreich.",
+      "frequency": 4,
+      "decomposition": ["be", "handl", "ung"],
+      "decompositionMeaning": ["prefix", "handle", "noun suffix"],
+      "connectedWords": ["behandeln", "handeln", "die Handlung"]
+    },
+    { 
+      "german": "das Selbstbewusstsein", 
+      "english": "self-confidence", 
+      "example": "Erfolge stärken das Selbstbewusstsein.",
+      "frequency": 3,
+      "decomposition": ["selbst", "bewusst", "sein"],
+      "decompositionMeaning": ["self", "conscious", "being"],
+      "connectedWords": ["selbst", "bewusst", "das Bewusstsein"]
+    },
+    { 
+      "german": "die Ernährung", 
+      "english": "nutrition", 
+      "example": "Gesunde Ernährung ist wichtig.",
+      "frequency": 4,
+      "decomposition": ["er", "nähr", "ung"],
+      "decompositionMeaning": ["prefix", "nourish", "noun suffix"],
+      "connectedWords": ["ernähren", "nähren", "die Nahrung"]
+    },
+    { 
+      "german": "die Krankheit", 
+      "english": "illness", 
+      "example": "Die Krankheit ist heilbar.",
+      "frequency": 5,
+      "decomposition": ["krank", "heit"],
+      "decompositionMeaning": ["sick", "noun suffix"],
+      "connectedWords": ["krank", "erkranken", "kranken"]
+    },
+    { 
+      "german": "der Arzt", 
+      "english": "doctor", 
+      "example": "Der Arzt hilft den Patienten.",
+      "frequency": 6,
+      "decomposition": ["arzt"],
+      "decompositionMeaning": ["doctor/physician"],
+      "connectedWords": ["ärztlich", "die Ärztin", "verarzten"]
+    },
+    { 
+      "german": "das Krankenhaus", 
+      "english": "hospital", 
+      "example": "Das Krankenhaus ist modern.",
+      "frequency": 5,
+      "decomposition": ["kranken", "haus"],
+      "decompositionMeaning": ["sick people", "house"],
+      "connectedWords": ["krank", "das Haus", "häuslich"]
+    },
+    { 
+      "german": "die Medizin", 
+      "english": "medicine", 
+      "example": "Die Medizin macht Fortschritte.",
+      "frequency": 5,
+      "decomposition": ["medizin"],
+      "decompositionMeaning": ["medicine"],
+      "connectedWords": ["medizinisch", "der Mediziner", "medikamentös"]
+    },
+    { 
+      "german": "die Therapie", 
+      "english": "therapy", 
+      "example": "Die Therapie hilft sehr.",
+      "frequency": 4,
+      "decomposition": ["therapie"],
+      "decompositionMeaning": ["therapy"],
+      "connectedWords": ["therapeutisch", "der Therapeut", "therapieren"]
+    },
+    { 
+      "german": "die Vorsorge", 
+      "english": "prevention", 
+      "example": "Vorsorge ist besser als Heilung.",
+      "frequency": 3,
+      "decomposition": ["vor", "sorge"],
+      "decompositionMeaning": ["before", "care"],
+      "connectedWords": ["vorsorgen", "sorgen", "die Sorge"]
+    },
+    { 
+      "german": "der Stress", 
+      "english": "stress", 
+      "example": "Stress schadet der Gesundheit.",
+      "frequency": 5,
+      "decomposition": ["stress"],
+      "decompositionMeaning": ["stress"],
+      "connectedWords": ["stressen", "stressig", "gestresst"]
+    },
+    { 
+      "german": "die Entspannung", 
+      "english": "relaxation", 
+      "example": "Entspannung ist wichtig.",
+      "frequency": 3,
+      "decomposition": ["ent", "spann", "ung"],
+      "decompositionMeaning": ["prefix (un-)", "tension", "noun suffix"],
+      "connectedWords": ["entspannen", "spannen", "die Spannung"]
+    },
+    { 
+      "german": "der Sport", 
+      "english": "sports", 
+      "example": "Sport hält fit.",
+      "frequency": 6,
+      "decomposition": ["sport"],
+      "decompositionMeaning": ["sport"],
+      "connectedWords": ["sportlich", "der Sportler", "sporttreiben"]
+    },
+    { 
+      "german": "die Bewegung", 
+      "english": "exercise", 
+      "example": "Regelmäßige Bewegung ist gesund.",
+      "frequency": 5,
+      "decomposition": ["be", "weg", "ung"],
+      "decompositionMeaning": ["prefix", "move", "noun suffix"],
+      "connectedWords": ["bewegen", "der Weg", "beweglich"]
+    }
+  ],
+  "technology": [
+    { 
+      "german": "der Datenschutz", 
+      "english": "data protection", 
+      "example": "Datenschutz ist wichtig.",
+      "frequency": 4,
+      "decomposition": ["daten", "schutz"],
+      "decompositionMeaning": ["data", "protection"],
+      "connectedWords": ["die Daten", "schützen", "der Schutz"]
+    },
+    { 
+      "german": "die Sicherheit", 
+      "english": "security", 
+      "example": "Sicherheit im Internet ist wichtig.",
+      "frequency": 6,
+      "decomposition": ["sicher", "heit"],
+      "decompositionMeaning": ["secure", "noun suffix"],
+      "connectedWords": ["sicher", "sichern", "unsicher"]
+    },
+    { 
+      "german": "das Netzwerk", 
+      "english": "network", 
+      "example": "Das Netzwerk funktioniert gut.",
+      "frequency": 4,
+      "decomposition": ["netz", "werk"],
+      "decompositionMeaning": ["net", "work"],
+      "connectedWords": ["das Netz", "das Werk", "vernetzen"]
+    },
+    { 
+      "german": "die Verbindung", 
+      "english": "connection", 
+      "example": "Die Verbindung ist stabil.",
+      "frequency": 5,
+      "decomposition": ["ver", "bind", "ung"],
+      "decompositionMeaning": ["prefix", "bind", "noun suffix"],
+      "connectedWords": ["verbinden", "binden", "die Bindung"]
+    },
+    { 
+      "german": "das System", 
+      "english": "system", 
+      "example": "Das System ist zuverlässig.",
+      "frequency": 6,
+      "decomposition": ["system"],
+      "decompositionMeaning": ["system"],
+      "connectedWords": ["systematisch", "systemisch", "das Subsystem"]
+    },
+    { 
+      "german": "die Software", 
+      "english": "software", 
+      "example": "Die Software ist aktuell.",
+      "frequency": 4,
+      "decomposition": ["software"],
+      "decompositionMeaning": ["software"],
+      "connectedWords": ["die Hardware", "das Programm", "programmieren"]
+    },
+    { 
+      "german": "die Hardware", 
+      "english": "hardware", 
+      "example": "Die Hardware ist modern.",
+      "frequency": 3,
+      "decomposition": ["hardware"],
+      "decompositionMeaning": ["hardware"],
+      "connectedWords": ["die Software", "hart", "die Ware"]
+    },
+    { 
+      "german": "der Computer", 
+      "english": "computer", 
+      "example": "Der Computer ist schnell.",
+      "frequency": 6,
+      "decomposition": ["computer"],
+      "decompositionMeaning": ["computer"],
+      "connectedWords": ["computerisiert", "das Computing", "rechnen"]
+    },
+    { 
+      "german": "das Programm", 
+      "english": "program", 
+      "example": "Das Programm läuft stabil.",
+      "frequency": 6,
+      "decomposition": ["programm"],
+      "decompositionMeaning": ["program"],
+      "connectedWords": ["programmieren", "der Programmierer", "die Programmierung"]
+    },
+    { 
+      "german": "die Anwendung", 
+      "english": "application", 
+      "example": "Die Anwendung ist nützlich.",
+      "frequency": 4,
+      "decomposition": ["an", "wend", "ung"],
+      "decompositionMeaning": ["on", "turn", "noun suffix"],
+      "connectedWords": ["anwenden", "wenden", "die Wendung"]
+    },
+    { 
+      "german": "die Technik", 
+      "english": "technology", 
+      "example": "Die Technik entwickelt sich schnell.",
+      "frequency": 5,
+      "decomposition": ["technik"],
+      "decompositionMeaning": ["technology/technique"],
+      "connectedWords": ["technisch", "der Techniker", "die Technologie"]
+    },
+    { 
+      "german": "die Innovation", 
+      "english": "innovation", 
+      "example": "Innovation treibt den Fortschritt.",
+      "frequency": 4,
+      "decomposition": ["innovation"],
+      "decompositionMeaning": ["innovation"],
+      "connectedWords": ["innovativ", "innovieren", "der Innovator"]
+    },
+    { 
+      "german": "die Forschung", 
+      "english": "research", 
+      "example": "Forschung ist wichtig.",
+      "frequency": 5,
+      "decomposition": ["forsch", "ung"],
+      "decompositionMeaning": ["research", "noun suffix"],
+      "connectedWords": ["forschen", "der Forscher", "erforschen"]
+    },
+    { 
+      "german": "die Wissenschaft", 
+      "english": "science", 
+      "example": "Wissenschaft erklärt die Welt.",
+      "frequency": 5,
+      "decomposition": ["wissen", "schaft"],
+      "decompositionMeaning": ["knowledge", "collective suffix"],
+      "connectedWords": ["wissen", "wissenschaftlich", "der Wissenschaftler"]
+    },
+    { 
+      "german": "das Wissen", 
+      "english": "knowledge", 
+      "example": "Wissen ist Macht.",
+      "frequency": 6,
+      "decomposition": ["wissen"],
+      "decompositionMeaning": ["knowledge"],
+      "connectedWords": ["wissen", "wissentlich", "unwissend"]
+    }
+  ],
+  "education": [
+    { 
+      "german": "die Bildung", 
+      "english": "education", 
+      "example": "Bildung öffnet Türen.",
+      "frequency": 5,
+      "decomposition": ["bild", "ung"],
+      "decompositionMeaning": ["form/image", "noun suffix"],
+      "connectedWords": ["bilden", "das Bild", "ausbilden"]
+    },
+    { 
+      "german": "das Studium", 
+      "english": "studies", 
+      "example": "Das Studium ist interessant.",
+      "frequency": 5,
+      "decomposition": ["studium"],
+      "decompositionMeaning": ["study"],
+      "connectedWords": ["studieren", "der Student", "die Studie"]
+    },
+    { 
+      "german": "die Prüfung", 
+      "english": "examination", 
+      "example": "Die Prüfung war schwer.",
+      "frequency": 5,
+      "decomposition": ["prüf", "ung"],
+      "decompositionMeaning": ["test/check", "noun suffix"],
+      "connectedWords": ["prüfen", "überprüfen", "der Prüfer"]
+    },
+    { 
+      "german": "das Zeugnis", 
+      "english": "certificate", 
+      "example": "Das Zeugnis ist wichtig.",
+      "frequency": 4,
+      "decomposition": ["zeug", "nis"],
+      "decompositionMeaning": ["stuff/evidence", "noun suffix"],
+      "connectedWords": ["zeugen", "bezeugen", "der Zeuge"]
+    },
+    { 
+      "german": "die Qualifikation", 
+      "english": "qualification", 
+      "example": "Die Qualifikation ist anerkannt.",
+      "frequency": 4,
+      "decomposition": ["qualifikation"],
+      "decompositionMeaning": ["qualification"],
+      "connectedWords": ["qualifizieren", "qualifiziert", "disqualifizieren"]
+    },
+    { 
+      "german": "die Universität", 
+      "english": "university", 
+      "example": "Die Universität ist renommiert.",
+      "frequency": 5,
+      "decomposition": ["universität"],
+      "decompositionMeaning": ["university"],
+      "connectedWords": ["universitär", "universal", "die Uni"]
+    },
+    { 
+      "german": "die Hochschule", 
+      "english": "college", 
+      "example": "Die Hochschule ist modern.",
+      "frequency": 4,
+      "decomposition": ["hoch", "schule"],
+      "decompositionMeaning": ["high", "school"],
+      "connectedWords": ["hoch", "die Schule", "schulen"]
+    },
+    { 
+      "german": "der Student", 
+      "english": "student", 
+      "example": "Der Student lernt fleißig.",
+      "frequency": 6,
+      "decomposition": ["student"],
+      "decompositionMeaning": ["student"],
+      "connectedWords": ["studieren", "die Studentin", "das Studium"]
+    },
+    { 
+      "german": "der Professor", 
+      "english": "professor", 
+      "example": "Der Professor erklärt gut.",
+      "frequency": 4,
+      "decomposition": ["professor"],
+      "decompositionMeaning": ["professor"],
+      "connectedWords": ["professoral", "die Professur", "die Professorin"]
+    },
+    { 
+      "german": "der Lehrer", 
+      "english": "teacher", 
+      "example": "Der Lehrer ist geduldig.",
+      "frequency": 6,
+      "decomposition": ["lehr", "er"],
+      "decompositionMeaning": ["teach", "person suffix"],
+      "connectedWords": ["lehren", "die Lehre", "belehren"]
+    },
+    { 
+      "german": "der Unterricht", 
+      "english": "instruction", 
+      "example": "Der Unterricht ist interessant.",
+      "frequency": 5,
+      "decomposition": ["unter", "richt"],
+      "decompositionMeaning": ["under", "direction"],
+      "connectedWords": ["unterrichten", "richten", "die Richtung"]
+    },
+    { 
+      "german": "das Fach", 
+      "english": "subject", 
+      "example": "Das Fach ist schwierig.",
+      "frequency": 5,
+      "decomposition": ["fach"],
+      "decompositionMeaning": ["subject/compartment"],
+      "connectedWords": ["fächern", "das Fachgebiet", "fachlich"]
+    },
+    { 
+      "german": "die Kenntnis", 
+      "english": "knowledge", 
+      "example": "Die Kenntnis ist wertvoll.",
+      "frequency": 4,
+      "decomposition": ["kenn", "tnis"],
+      "decompositionMeaning": ["know", "noun suffix"],
+      "connectedWords": ["kennen", "erkennen", "anerkennen"]
+    },
+    { 
+      "german": "die Kompetenz", 
+      "english": "competence", 
+      "example": "Die Kompetenz ist gefragt.",
+      "frequency": 4,
+      "decomposition": ["kompetenz"],
+      "decompositionMeaning": ["competence"],
+      "connectedWords": ["kompetent", "inkompetent", "die Zuständigkeit"]
+    },
+    { 
+      "german": "die Fertigkeit", 
+      "english": "skill", 
+      "example": "Die Fertigkeit ist wichtig.",
+      "frequency": 3,
+      "decomposition": ["fertig", "keit"],
+      "decompositionMeaning": ["ready/finished", "noun suffix"],
+      "connectedWords": ["fertig", "fertigen", "die Fertigstellung"]
+    }
+  ],
+  "economy": [
+    { 
+      "german": "die Wirtschaft", 
+      "english": "economy", 
+      "example": "Die Wirtschaft wächst.",
+      "frequency": 6,
+      "decomposition": ["wirt", "schaft"],
+      "decompositionMeaning": ["host/manage", "collective suffix"],
+      "connectedWords": ["wirtschaften", "der Wirt", "wirtschaftlich"]
+    },
+    { 
+      "german": "das Unternehmen", 
+      "english": "enterprise", 
+      "example": "Das Unternehmen ist erfolgreich.",
+      "frequency": 6,
+      "decomposition": ["unter", "nehm", "en"],
+      "decompositionMeaning": ["under", "take", "verb suffix"],
+      "connectedWords": ["unternehmen", "nehmen", "der Unternehmer"]
+    },
+    { 
+      "german": "der Wettbewerb", 
+      "english": "competition", 
+      "example": "Der Wettbewerb ist hart.",
+      "frequency": 4,
+      "decomposition": ["wett", "bewerb"],
+      "decompositionMeaning": ["compete", "application"],
+      "connectedWords": ["wettbewerben", "bewerben", "die Bewerbung"]
+    },
+    { 
+      "german": "der Markt", 
+      "english": "market", 
+      "example": "Der Markt ist umkämpft.",
+      "frequency": 6,
+      "decomposition": ["markt"],
+      "decompositionMeaning": ["market"],
+      "connectedWords": ["vermarkten", "der Supermarkt", "marktfähig"]
+    },
+    { 
+      "german": "der Kunde", 
+      "english": "customer", 
+      "example": "Der Kunde ist zufrieden.",
+      "frequency": 6,
+      "decomposition": ["kunde"],
+      "decompositionMeaning": ["customer"],
+      "connectedWords": ["die Kundin", "kundlich", "der Stammkunde"]
+    },
+    { 
+      "german": "das Produkt", 
+      "english": "product", 
+      "example": "Das Produkt ist innovativ.",
+      "frequency": 6,
+      "decomposition": ["produkt"],
+      "decompositionMeaning": ["product"],
+      "connectedWords": ["produzieren", "die Produktion", "produktiv"]
+    },
+    { 
+      "german": "der Verkauf", 
+      "english": "sales", 
+      "example": "Der Verkauf läuft gut.",
+      "frequency": 5,
+      "decomposition": ["ver", "kauf"],
+      "decompositionMeaning": ["prefix", "buy"],
+      "connectedWords": ["verkaufen", "kaufen", "der Kauf"]
+    },
+    { 
+      "german": "der Gewinn", 
+      "english": "profit", 
+      "example": "Der Gewinn ist gestiegen.",
+      "frequency": 5,
+      "decomposition": ["gewinn"],
+      "decompositionMeaning": ["gain/profit"],
+      "connectedWords": ["gewinnen", "der Gewinner", "gewinnbringend"]
+    },
+    { 
+      "german": "der Verlust", 
+      "english": "loss", 
+      "example": "Der Verlust ist hoch.",
+      "frequency": 4,
+      "decomposition": ["ver", "lust"],
+      "decompositionMeaning": ["prefix", "desire/loss"],
+      "connectedWords": ["verlieren", "die Lust", "verlustreich"]
+    },
+    { 
+      "german": "die Investition", 
+      "english": "investment", 
+      "example": "Die Investition lohnt sich.",
+      "frequency": 4,
+      "decomposition": ["investition"],
+      "decompositionMeaning": ["investment"],
+      "connectedWords": ["investieren", "der Investor", "das Investment"]
+    },
+    { 
+      "german": "das Kapital", 
+      "english": "capital", 
+      "example": "Das Kapital ist begrenzt.",
+      "frequency": 5,
+      "decomposition": ["kapital"],
+      "decompositionMeaning": ["capital"],
+      "connectedWords": ["kapitalistisch", "der Kapitalist", "kapitalisieren"]
+    },
+    { 
+      "german": "die Finanzierung", 
+      "english": "financing", 
+      "example": "Die Finanzierung ist gesichert.",
+      "frequency": 4,
+      "decomposition": ["finanz", "ier", "ung"],
+      "decompositionMeaning": ["finance", "verb suffix", "noun suffix"],
+      "connectedWords": ["finanzieren", "die Finanzen", "finanziell"]
+    },
+    { 
+      "german": "der Kredit", 
+      "english": "credit", 
+      "example": "Der Kredit ist günstig.",
+      "frequency": 4,
+      "decomposition": ["kredit"],
+      "decompositionMeaning": ["credit"],
+      "connectedWords": ["kreditieren", "der Kreditgeber", "diskreditieren"]
+    },
+    { 
+      "german": "die Schulden", 
+      "english": "debt", 
+      "example": "Die Schulden sind hoch.",
+      "frequency": 5,
+      "decomposition": ["schuld", "en"],
+      "decompositionMeaning": ["guilt/debt", "plural suffix"],
+      "connectedWords": ["schulden", "die Schuld", "verschulden"]
+    },
+    { 
+      "german": "das Budget", 
+      "english": "budget", 
+      "example": "Das Budget ist knapp.",
+      "frequency": 4,
+      "decomposition": ["budget"],
+      "decompositionMeaning": ["budget"],
+      "connectedWords": ["budgetieren", "budgetär", "das Haushaltsbudget"]
+    }
+  ]
+}
