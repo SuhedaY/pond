@@ -19,6 +19,7 @@ import json
 import time
 import re
 from pathlib import Path
+from urllib.parse import unquote
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
 from typing import Optional, Dict, List, Tuple
@@ -143,7 +144,7 @@ def fetch_dwds_page(url: str, max_retries: int = 3) -> Optional[BeautifulSoup]:
 
 def extract_word_from_lemma(lemma: str) -> str:
     """
-    Extract clean word from lemma (removes articles, etc.)
+    Extract clean word from lemma (removes articles, #1 suffixes, etc.)
 
     Args:
         lemma: Lemma string from DWDS
@@ -151,8 +152,10 @@ def extract_word_from_lemma(lemma: str) -> str:
     Returns:
         str: Clean word
     """
+    # Remove #1, #2, etc. suffixes (used to distinguish homonyms)
+    word = re.sub(r'#\d+$', '', lemma)
     # Remove articles (der, die, das) and clean up
-    word = re.sub(r',\s*(der|die|das)$', '', lemma)
+    word = re.sub(r',\s*(der|die|das)$', '', word)
     return word.strip()
 
 
@@ -318,6 +321,7 @@ def extract_word_data_scraping(word: str, pos_data: Optional[Dict] = None, debug
 
         # Extract connected/related words from "Typische Verbindungen" (collocations)
         connected_words = []
+        connected_words_set = set()  # Track already added words
 
         # Find "Typische Verbindungen" section (wp-1, wp-2, etc.)
         wp_header = soup.find('h2', id=lambda x: x and x.startswith('wp-'))
@@ -328,9 +332,39 @@ def extract_word_data_scraping(word: str, pos_data: Optional[Dict] = None, debug
                     # Found the row with collocation links
                     colloc_links = sibling.find_all('a', href=lambda x: x and x.startswith('/wb/'), limit=15)
                     for link in colloc_links:
-                        word = link.get_text(strip=True)
-                        if word and word != clean_word and word not in connected_words:
-                            connected_words.append(word)
+                        german_word = link.get_text(strip=True)
+                        if german_word and german_word != clean_word and german_word not in connected_words_set:
+                            english_word = translate_to_english(german_word)
+                            connected_words.append({
+                                "german": german_word,
+                                "english": english_word
+                            })
+                            connected_words_set.add(german_word)
+                    break
+
+        # Extract semantically related words from "Bedeutungsverwandte Ausdrücke" (synonyms/thesaurus)
+        synonyms = []
+        synonyms_set = set()  # Track already added words
+
+        # Find "Bedeutungsverwandte Ausdrücke" section (ot-1, ot-2, etc.)
+        ot_header = soup.find('h2', id=lambda x: x and x.startswith('ot-'))
+        if ot_header:
+            # Find all synset blocks after the header
+            synset_blocks = soup.find_all('div', class_='ot-synset-block')
+            for block in synset_blocks:
+                # Find all synonym links within the block
+                synonym_links = block.find_all('a', href=lambda x: x and '/wb/' in x, limit=20)
+                for link in synonym_links:
+                    german_word = link.get_text(strip=True)
+                    if german_word and german_word != clean_word and german_word not in synonyms_set:
+                        english_word = translate_to_english(german_word)
+                        synonyms.append({
+                            "german": german_word,
+                            "english": english_word
+                        })
+                        synonyms_set.add(german_word)
+                # Limit total synonyms to 15
+                if len(synonyms) >= 15:
                     break
 
         # Return comprehensive data structure
@@ -342,10 +376,11 @@ def extract_word_data_scraping(word: str, pos_data: Optional[Dict] = None, debug
             "decompositionMeaning": decomposition_meaning if decomposition_meaning else [],
             "frequency": frequency,
             "connected_words": connected_words,
+            "synonyms": synonyms,
             "examples": examples,
             "etymology": etymology,
             "compounds": compounds,
-            "source_url": url
+            "source_url": unquote(url)
         }
 
         return result
@@ -458,6 +493,10 @@ def process_german_words(level="A1", max_words=None, output_dir=None, resume_fro
                 print(f"     - Compounds: {len(result['compounds'])} found")
             if result.get('examples'):
                 print(f"     - Examples: {len(result['examples'])} found")
+            if result.get('connected_words'):
+                print(f"     - Collocations: {len(result['connected_words'])} found")
+            if result.get('synonyms'):
+                print(f"     - Synonyms: {len(result['synonyms'])} found")
             if result.get('frequency'):
                 print(f"     - Frequency: {result['frequency']}")
 

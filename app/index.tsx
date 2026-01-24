@@ -17,6 +17,8 @@ import B1Vocabulary from './german/B1.json';
 import B2Vocabulary from './german/B2.json';
 
 // Define the vocabulary word type
+type WordItem = string | { german: string; english: string };
+
 interface VocabWord {
   word: string;
   partOfSpeech: string;
@@ -24,11 +26,12 @@ interface VocabWord {
   composition: string[];
   decompositionMeaning: string[];
   frequency: string | number | null;
-  connected_words: Array<{ german: string; english: string }>;
+  connected_words: WordItem[];
+  synonyms?: WordItem[];
   examples: Array<{ german: string; english: string }>;
   source_url: string;
-  etymology?: { german: string; english: string };
-  compounds?: Array<{ german: string; english: string }>;
+  etymology?: string | null;
+  compounds?: WordItem[];
 }
 
 type GameState = 'levelSelect' | 'playing' | 'gameOver';
@@ -395,11 +398,27 @@ const GermanVocabGame = () => {
                 )}
                 {currentWord.connected_words && currentWord.connected_words.length > 0 && (
                   <View style={styles.connectedWordsContainer}>
-                    <Text style={styles.connectedWordsTitle}>Connected Words:</Text>
+                    <Text style={styles.connectedWordsTitle}>Collocations:</Text>
                     <View style={styles.connectedWordsList}>
-                      {currentWord.connected_words.map((word, index) => (
+                      {currentWord.connected_words.slice(0, 8).map((word, index) => (
                         <Text key={index} style={styles.connectedWord}>
-                          {word.german} ({word.english})
+                          {typeof word === 'string'
+                            ? word
+                            : `${(word as any).german} (${(word as any).english})`}
+                        </Text>
+                      ))}
+                    </View>
+                  </View>
+                )}
+                {currentWord.synonyms && currentWord.synonyms.length > 0 && (
+                  <View style={styles.synonymsContainer}>
+                    <Text style={styles.synonymsTitle}>Synonyms:</Text>
+                    <View style={styles.synonymsList}>
+                      {currentWord.synonyms.slice(0, 8).map((word, index) => (
+                        <Text key={index} style={styles.synonymWord}>
+                          {typeof word === 'string'
+                            ? word
+                            : `${(word as any).german} (${(word as any).english})`}
                         </Text>
                       ))}
                     </View>
@@ -725,6 +744,7 @@ const styles = StyleSheet.create({
     borderLeftColor: '#3b82f6',
     borderRadius: 8,
     padding: 12,
+    marginBottom: 12,
   },
   connectedWordsTitle: {
     fontSize: 14,
@@ -740,6 +760,33 @@ const styles = StyleSheet.create({
   connectedWord: {
     backgroundColor: '#bfdbfe',
     color: '#1d4ed8',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 16,
+    fontSize: 12,
+    fontWeight: '500',
+  },
+  synonymsContainer: {
+    backgroundColor: '#fef3c7',
+    borderLeftWidth: 4,
+    borderLeftColor: '#f59e0b',
+    borderRadius: 8,
+    padding: 12,
+  },
+  synonymsTitle: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#b45309',
+    marginBottom: 8,
+  },
+  synonymsList: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  synonymWord: {
+    backgroundColor: '#fde68a',
+    color: '#92400e',
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: 16,
